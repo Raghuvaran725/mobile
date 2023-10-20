@@ -24,7 +24,7 @@ public class MobileController {
 		return mservice.addMobile(mp);
 		
 	}
-	@GetMapping
+	@GetMapping("/get")
 	public List<Mobile> getAll(){
 
 		return mservice.getallMobiles();
