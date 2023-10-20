@@ -14,7 +14,7 @@ public class MobileService implements MobileInterface{
 	List<Mobile> mobileList=new ArrayList<>();
 
 	@Override
-	public String addLaptop(Mobile mobile) {
+	public String addMobile(Mobile mobile) {
 		mobileList.add(mobile);
 		return "Mobile added successfully";
 	}

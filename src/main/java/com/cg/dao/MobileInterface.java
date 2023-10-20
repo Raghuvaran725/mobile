@@ -6,7 +6,7 @@ import com.cg.entity.Mobile;
 
 public interface MobileInterface {
 
-	public String addLaptop(Mobile mobile);
+	public String addMobile(Mobile mobile);
 
 		public List<Mobile> getallMobiles();
 	
